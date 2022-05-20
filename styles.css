@@ -14,12 +14,11 @@ header {
 
 #header-main {
     background-color: #1f2937;
-    padding: 0px 200px;
+    padding: 0px 100px;
 }
 
 main {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin: 50px 0;
 }
@@ -35,6 +34,7 @@ main {
     background-color: #6c747d;
     padding: 75px;
     margin-left: 15px;
+    color: #e5e7eb;
 }
 
 #logo {
@@ -67,7 +67,7 @@ a {
     margin: 0 0 10px 0;
 }
 
-button {
+#description-button {
     background-color: #3882f6;
     color: #e5e7eb;
     border: 0;
@@ -79,7 +79,7 @@ button {
 #random-info {
     display: flex;
     justify-content: center;
-    padding: 0 200px;
+    padding: 0 200px 50px 200px;
 }
 
 h2 {
@@ -104,11 +104,66 @@ h2 {
     align-items: center;
 }
 
-figcaption {
+figure > figcaption {
     text-align: center;
     font-size: 18px;
 }
 
 figure {
     justify-self: center;
+}
+
+/* Styling for quote and action sections */
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 70px 100px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    color: #1f2937;
+    margin-bottom: 0;
+
+}
+
+.quote > figcaption {
+    text-align: end;
+    margin: 0 40px;
+}
+
+#action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+#action-button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #e5e7eb;
+    padding: 8px 25px;
+    border-radius: 7px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#action-content > p {
+    margin-top: 0;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
