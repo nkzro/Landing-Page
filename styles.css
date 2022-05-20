@@ -76,3 +76,39 @@ button {
 }
 
 /* Random-info styling */
+#random-info {
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info {
+    border: solid 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#info-1, #info-2, #info-3, #info-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+}
+
+figure {
+    justify-self: center;
+}
